@@ -1,0 +1,16 @@
+{
+  "name": "heroku-node-js",
+  "version": "1.0.0",
+  "description": "heroku deploy strv react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "deploy": "git add . && git commit -m 'deploy' && git push heroku master"
+  },
+  "dependencies": {
+    "express": "4.15.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

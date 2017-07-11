@@ -1,0 +1,8 @@
+{
+  "name": "Heroku: Node.js",
+  "description": "heroku deploy strv react app",
+  "repository": "https://git.heroku.com/strv-test-webproject.git",
+  "logo": "",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
